@@ -8,7 +8,7 @@ public:
     int *pointer = NULL, length;
     Arrays()
     {
-        cout << "How many numbers you want to enter?" << endl;
+        cout << "Enter the size of array:- ";
         cin >> length;
         pointer = new int[length];
     }
