@@ -1,1 +1,1 @@
- << std::fixed
+cout << n << endl << low << endl << high << endl << middle;
