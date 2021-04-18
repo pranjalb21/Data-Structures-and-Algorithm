@@ -1,1 +1,1 @@
-cout << n << endl << low << endl << high << endl << middle;
+e - 1
