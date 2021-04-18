@@ -43,7 +43,7 @@ int Partition(int arr[], int start, int end){
     int x = arr[end];
     int i = start - 1;
     for(int j = start; j <= end - 1; j++){
-        if(arr[j] < x){
+        if(arr[j] <= x){
             swap(arr[j], arr[++i]);
         } 
     }
